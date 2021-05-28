@@ -1,7 +1,7 @@
 ﻿
 namespace TIC_TAC_TOE
 {
-    partial class TICTACTOE
+    partial class TicTacToe
     {
         /// <summary>
         ///  Required designer variable.
@@ -46,91 +46,110 @@ namespace TIC_TAC_TOE
             // 
             // btn1
             // 
+            this.btn1.AccessibleDescription = "1";
             this.btn1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn1.Location = new System.Drawing.Point(13, 12);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(100, 100);
             this.btn1.TabIndex = 0;
+            this.btn1.Tag = "1";
             this.btn1.UseVisualStyleBackColor = true;
             this.btn1.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn2
             // 
+            this.btn2.AccessibleDescription = "2";
             this.btn2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn2.Location = new System.Drawing.Point(119, 12);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(100, 100);
             this.btn2.TabIndex = 0;
+            this.btn2.Tag = "2";
             this.btn2.UseVisualStyleBackColor = true;
             this.btn2.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn3
             // 
+            this.btn3.AccessibleDescription = "3";
             this.btn3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn3.Location = new System.Drawing.Point(225, 12);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(100, 100);
             this.btn3.TabIndex = 0;
+            this.btn3.Tag = "3";
             this.btn3.UseVisualStyleBackColor = true;
             this.btn3.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn4
             // 
+            this.btn4.AccessibleDescription = "4";
             this.btn4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn4.Location = new System.Drawing.Point(13, 118);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(100, 100);
             this.btn4.TabIndex = 0;
+            this.btn4.Tag = "4";
             this.btn4.UseVisualStyleBackColor = true;
             this.btn4.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn5
             // 
+            this.btn5.AccessibleDescription = "5";
             this.btn5.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn5.Location = new System.Drawing.Point(119, 118);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(100, 100);
             this.btn5.TabIndex = 0;
+            this.btn5.Tag = "5";
             this.btn5.UseVisualStyleBackColor = true;
             this.btn5.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn6
             // 
+            this.btn6.AccessibleDescription = "6";
             this.btn6.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn6.Location = new System.Drawing.Point(225, 118);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(100, 100);
             this.btn6.TabIndex = 0;
+            this.btn6.Tag = "6";
             this.btn6.UseVisualStyleBackColor = true;
             this.btn6.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn7
             // 
+            this.btn7.AccessibleDescription = "7";
             this.btn7.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn7.Location = new System.Drawing.Point(13, 224);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(100, 100);
             this.btn7.TabIndex = 0;
+            this.btn7.Tag = "7";
             this.btn7.UseVisualStyleBackColor = true;
             this.btn7.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn8
             // 
+            this.btn8.AccessibleDescription = "8";
             this.btn8.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn8.Location = new System.Drawing.Point(119, 224);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(100, 100);
             this.btn8.TabIndex = 0;
+            this.btn8.Tag = "8";
             this.btn8.UseVisualStyleBackColor = true;
             this.btn8.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn9
             // 
+            this.btn9.AccessibleDescription = "9";
             this.btn9.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn9.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn9.Location = new System.Drawing.Point(225, 224);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(100, 100);
             this.btn9.TabIndex = 0;
+            this.btn9.Tag = "9";
             this.btn9.UseVisualStyleBackColor = true;
             this.btn9.Click += new System.EventHandler(this.btn_Click);
             // 
@@ -143,6 +162,7 @@ namespace TIC_TAC_TOE
             this.btnRestart.TabIndex = 0;
             this.btnRestart.Text = "RESTART";
             this.btnRestart.UseVisualStyleBackColor = true;
+            this.btnRestart.Click += new System.EventHandler(this.btnRestart_Click);
             // 
             // btnExit
             // 
@@ -176,7 +196,7 @@ namespace TIC_TAC_TOE
             this.textBox2.TabIndex = 1;
             this.textBox2.Text = "TURN: X";
             // 
-            // TICTACTOE
+            // TicTacToe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -195,7 +215,7 @@ namespace TIC_TAC_TOE
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
             this.MaximizeBox = false;
-            this.Name = "TICTACTOE";
+            this.Name = "TicTacToe";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

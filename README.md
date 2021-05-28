@@ -14,3 +14,4 @@ TODO
 DONE
  * Exit
  * main UI
+ * basic button that changes to an X or O
