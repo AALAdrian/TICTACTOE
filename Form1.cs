@@ -78,7 +78,7 @@ namespace TIC_TAC_TOE
             {
                 Win(0);
             }
-            else if (moveso.Contains("6") & moveso.Contains("5") & moveso.Contains("9"))
+            else if (moveso.Contains("1") & moveso.Contains("5") & moveso.Contains("9"))
             {
                 Win(0);
             }
@@ -88,7 +88,7 @@ namespace TIC_TAC_TOE
             }
 
             //X
-            if (movesx.Contains("1") & movesx.Contains("2") & movesx.Contains("3"))
+            else if (movesx.Contains("1") & movesx.Contains("2") & movesx.Contains("3"))
             {
                 Win(1);
             }
@@ -112,13 +112,18 @@ namespace TIC_TAC_TOE
             {
                 Win(1);
             }
-            else if (movesx.Contains("6") & movesx.Contains("5") & movesx.Contains("9"))
+            else if (movesx.Contains("1") & movesx.Contains("5") & movesx.Contains("9"))
             {
                 Win(1);
             }
             else if (movesx.Contains("3") & movesx.Contains("5") & movesx.Contains("7"))
             {
                 Win(1);
+            }
+            //if draw
+            else if (moveso.Count > 4 || movesx.Count > 4)
+            {
+                Win(3);
             }
 
         }
@@ -141,8 +146,10 @@ namespace TIC_TAC_TOE
             btn6.Text = "";
             btn7.Text = "";
             btn8.Text = "";
-            btn9.Text = ""; 
-            if(args == 1)
+            btn9.Text = "";
+            moveso.Clear();
+            movesx.Clear();
+            if (args == 1)
             {
                 scorex += 1;
                 txtScoreX.Text = ("PLAYER X SCORE" + scorex);
@@ -151,6 +158,10 @@ namespace TIC_TAC_TOE
             {
                 scorey += 1;
                 txtScoreO.Text = ("PLAYER O SCORE" + scorey);
+            }
+            else if(args == 3)
+            {
+                textBox2.Text = "Draw";
             }
             
         }
