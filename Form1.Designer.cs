@@ -29,6 +29,7 @@ namespace TIC_TAC_TOE
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TicTacToe));
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.btn3 = new System.Windows.Forms.Button();
@@ -226,9 +227,10 @@ namespace TIC_TAC_TOE
             this.Controls.Add(this.btn4);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "TicTacToe";
-            this.Text = "Form1";
+            this.Text = "TicTacToe";
             this.ResumeLayout(false);
             this.PerformLayout();
 
