@@ -180,7 +180,7 @@ namespace TIC_TAC_TOE
             // txtScoreX
             // 
             this.txtScoreX.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtScoreX.Location = new System.Drawing.Point(356, 118);
+            this.txtScoreX.Location = new System.Drawing.Point(356, 78);
             this.txtScoreX.Name = "txtScoreX";
             this.txtScoreX.PlaceholderText = "PLAYER X SCORE";
             this.txtScoreX.ReadOnly = true;
@@ -201,7 +201,7 @@ namespace TIC_TAC_TOE
             // txtScoreO
             // 
             this.txtScoreO.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtScoreO.Location = new System.Drawing.Point(356, 184);
+            this.txtScoreO.Location = new System.Drawing.Point(356, 118);
             this.txtScoreO.Name = "txtScoreO";
             this.txtScoreO.PlaceholderText = "PLAYER O SCORE";
             this.txtScoreO.ReadOnly = true;
