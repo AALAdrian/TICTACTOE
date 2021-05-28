@@ -178,12 +178,12 @@ namespace TIC_TAC_TOE
             // 
             // txtScoreX
             // 
-            this.txtScoreX.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtScoreX.Location = new System.Drawing.Point(356, 59);
+            this.txtScoreX.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtScoreX.Location = new System.Drawing.Point(356, 118);
             this.txtScoreX.Name = "txtScoreX";
             this.txtScoreX.PlaceholderText = "PLAYER X SCORE";
             this.txtScoreX.ReadOnly = true;
-            this.txtScoreX.Size = new System.Drawing.Size(206, 41);
+            this.txtScoreX.Size = new System.Drawing.Size(206, 34);
             this.txtScoreX.TabIndex = 1;
             // 
             // textBox2
@@ -199,12 +199,12 @@ namespace TIC_TAC_TOE
             // 
             // txtScoreO
             // 
-            this.txtScoreO.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtScoreO.Location = new System.Drawing.Point(356, 106);
+            this.txtScoreO.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtScoreO.Location = new System.Drawing.Point(356, 184);
             this.txtScoreO.Name = "txtScoreO";
             this.txtScoreO.PlaceholderText = "PLAYER O SCORE";
             this.txtScoreO.ReadOnly = true;
-            this.txtScoreO.Size = new System.Drawing.Size(206, 41);
+            this.txtScoreO.Size = new System.Drawing.Size(206, 34);
             this.txtScoreO.TabIndex = 1;
             // 
             // TicTacToe
