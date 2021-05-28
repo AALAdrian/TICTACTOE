@@ -40,8 +40,9 @@ namespace TIC_TAC_TOE
             this.btn9 = new System.Windows.Forms.Button();
             this.btnRestart = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
-            this.txtScore = new System.Windows.Forms.TextBox();
+            this.txtScoreX = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtScoreO = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn1
@@ -175,15 +176,15 @@ namespace TIC_TAC_TOE
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // txtScore
+            // txtScoreX
             // 
-            this.txtScore.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtScore.Location = new System.Drawing.Point(356, 59);
-            this.txtScore.Name = "txtScore";
-            this.txtScore.PlaceholderText = "SCORE";
-            this.txtScore.ReadOnly = true;
-            this.txtScore.Size = new System.Drawing.Size(206, 41);
-            this.txtScore.TabIndex = 1;
+            this.txtScoreX.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtScoreX.Location = new System.Drawing.Point(356, 59);
+            this.txtScoreX.Name = "txtScoreX";
+            this.txtScoreX.PlaceholderText = "PLAYER X SCORE";
+            this.txtScoreX.ReadOnly = true;
+            this.txtScoreX.Size = new System.Drawing.Size(206, 41);
+            this.txtScoreX.TabIndex = 1;
             // 
             // textBox2
             // 
@@ -196,13 +197,24 @@ namespace TIC_TAC_TOE
             this.textBox2.TabIndex = 1;
             this.textBox2.Text = "TURN: X";
             // 
+            // txtScoreO
+            // 
+            this.txtScoreO.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtScoreO.Location = new System.Drawing.Point(356, 106);
+            this.txtScoreO.Name = "txtScoreO";
+            this.txtScoreO.PlaceholderText = "PLAYER O SCORE";
+            this.txtScoreO.ReadOnly = true;
+            this.txtScoreO.Size = new System.Drawing.Size(206, 41);
+            this.txtScoreO.TabIndex = 1;
+            // 
             // TicTacToe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 337);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.txtScore);
+            this.Controls.Add(this.txtScoreO);
+            this.Controls.Add(this.txtScoreX);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnRestart);
             this.Controls.Add(this.btn9);
@@ -235,8 +247,9 @@ namespace TIC_TAC_TOE
         private System.Windows.Forms.Button btn9;
         private System.Windows.Forms.Button btnRestart;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.TextBox txtScore;
+        private System.Windows.Forms.TextBox txtScoreX;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtScoreO;
     }
 }
 
